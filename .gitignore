@@ -1,0 +1,27 @@
+# Ignore the virtual environment
+PLPproject/
+
+# Ignore compiled bytecode
+*.pyc
+__pycache__/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore environment variables file
+.env
+
+# Ignore other temporary files
+*.log
+*.pot
+*.mo
+
+# Ignore media files (if applicable)
+media/
+
+# Ignore static files (if you don't want to track them)
+static/
+
+# Ignore Django migrations (optional, if you don't want to track them)
+*/migrations/*.py
+!*/migrations/__init__.py
